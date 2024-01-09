@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    user-select: none;
+}
+
+h1{
+    padding: 2rem;
+    font-family: 'Lemon', serif;
+}
+
+#choose-colors{
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #22c55e;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#clear{
+    padding: 0.55rem 1rem ;
+    margin-bottom: 2rem;
+    outline: none;
+    margin-left: 1rem;
+    background: #22c55e;
+    border: none;
+    color: #fff;
+}
+
+#clear:hover{
+    cursor: pointer;
+}
+
+#clear:active{
+    scale: 1.01;
+}
+
+#eraser{
+    margin-left: 1rem;
+    transform: translateY(0.2rem);
+}
+
+#eraser:hover{
+    cursor: pointer;
+}
+
+#eraser:active{
+    scale: 1.01;
+}
+
+.container{
+    text-align: center;
+    min-height: 100vh;
+    background: #eee;
+}
+
+#canvas{
+    display: block;
+    border: 1px solid black;
+    background: #fff;
+    margin: auto;
+}
