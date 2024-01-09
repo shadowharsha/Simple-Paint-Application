@@ -13,6 +13,7 @@ const heading = document.querySelector("h1");
 
 // select
 const selectButton = document.getElementById("choose-colors");
+ctx.strokeStyle = "transparent";
 selectButton.addEventListener("change", ()=>{
     const optionIndex = selectButton.selectedIndex;
     const text = selectButton.options[optionIndex].text;
